@@ -9,176 +9,175 @@
 		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
 		<title>个人中心</title>
 		<link rel="stylesheet" href="css/reset.css" />
-		<link rel="stylesheet" href="css/style.css" />
-		<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
-		<!--<style type="text/css">
-			.sign-alert {
-				position: fixed;
-				top: 20%;
-				left: 10%;
-				width: 80%;
-				min-height: 26rem;
-				z-index: 888;
-				display: none;
-			}
-			.sign-alert img.sign-close-btn {
-				display: inline-block;
-				width: 2.5rem;
-				cursor: pointer;
-				margin-right: 14%;
-			}
-			.sign-alert div.sign-close-box {
-				text-align: right;
-				padding-bottom: 2rem;
-			}
-			.sign-alert div.sign-alert-con {
-				background: url(img/signbg.png) repeat;
-				background-size:100% 100%;
-				min-height: 22rem;
-				width: 90%;
-				margin-left: 5%;
-				text-align: center;
-			}
-			.sign-alert div.sign-alert-con p.add-integral {
-				color: #666;
-				font-size: 1.6rem;
-				padding: 5rem 0 1rem 0;
-				text-align: center;
-			}
-			.sign-alert div.sign-alert-con p.add-integral span.add-integral-num {
-				color: #ab2b2b;
-				font-size: 2.8rem;
-				padding-right: .3rem;
-				font-weight: bold;
-			}
-			.sign-alert div.sign-alert-con img.sign-alert-icon {
-				display: block;
-				margin: 0 auto;
-				width: 8rem;
-			}
-			.sign-alert-codebtn {
-				width: 40%;
-			    margin: 1rem auto;
-			    background: #b8011a;
-			    height: 2.6rem;
-			    font-size: 1.4rem;
-			    color: #fff;
-			    border-radius: 3px !important;
-			}
-		</style>-->
+		<!--<link rel="stylesheet" href="css/style.css" />-->
+		<link rel="stylesheet" href="./css/weui.min.css">
+		<link rel="stylesheet" href="./css/jquery-weui.css">
+		<link rel="stylesheet" href="css/page.css" />
 	</head>
-	<body>
-		<!--wrapper开始-->
-		<div class="wrapper" style="background: #f0f0f0;">
-			<!--header开始-->
-			<div class="header-box">
-				<div class="index-header">
-					<img src="img/logo.png" class="logo"/>
-					<span class="mine-span"><img src="img/mine.png" class="mine-img"/></span>
-					<a href="shopCart.html" class="shop-cart"><img src="img/cart.png" class="shop-cart-img"/><img src="img/redPoint.png" class="shop-cart-have"/></a>
+	<body class="page-mine" ontouchstart>
+	<div class="weui-tab">
+		<div class="weui-tab__bd">
+			<!--<div id="tab1" class="weui-tab__bd-item weui-tab__bd-item&#45;&#45;active">
+				<h1>页面一</h1>
+			</div>
+			<div id="tab2" class="weui-tab__bd-item">
+				<h1>页面二</h1>
+			</div>
+			<div id="tab3" class="weui-tab__bd-item">
+				<h1>页面三</h1>
+			</div>
+			<div id="tab4" class="weui-tab__bd-item">
+				<h1>页面四</h1>
+			</div>-->
+			<div class="weui-panel weui-panel_access">
+				<div class="weui-panel__bd">
+					<a href="javascript:void(0);" class="weui-media-box weui-media-box_appmsg weui-cell_access">
+						<div class="weui-media-box__hd">
+							<img class="head head-img" src="img/head-img.png" alt="">
+						</div>
+						<div class="weui-media-box__bd">
+							<p class="weui-media-box__title person-name">百里守约</p>
+							<p class="weui-media-box__desc">资料修改</p>
+						</div>
+						<span class="weui-cell__ft"></span>
+					</a>
 				</div>
 			</div>
-			<!--header结束-->
-			<!--content开始-->
-			<div class="content">
-				<!--更改-->
-				<div class="head-bg">
-					<div class="person-det">
-						<img src="img/head-img.png" class="head-img"/>
-						<p class="person-name">jdskhfjkkh</p>
-						<img src="img/per-jtR.png" alt="" class="per-jtR right"/>
+			<div class="weui-panel weui-panel_access">
+				<div class="weui-panel__bd">
+					<div class="weui-flex">
+						<div class="weui-flex__item">
+							<div class="placeholder">
+								<span class="icon-vip icon"></span><br/>
+								<span>收藏</span>
+							</div>
+						</div>
+						<div class="weui-flex__item">
+							<div class="placeholder">
+								<span class="icon-foot icon"></span><br/>
+								<span>足迹</span>
+							</div>
+						</div>
+						<div class="weui-flex__item">
+							<div class="placeholder">
+								<span class="icon-flash icon"></span><i class="new-message-icon"></i><br/>
+								<span>消息</span>
+							</div>
+						</div>
+						<div class="weui-flex__item">
+							<div class="placeholder">
+								<span class="icon-help icon"></span><br/>
+								<span>帮助</span>
+							</div>
+						</div>
 					</div>
-					<div class="person-list-bg"></div>
-					<ul class="person-list">
-						<li>
-							<a href="#">
-								<p><img src="img/mine-icon1.png" alt="" class="mine-icon"/></p>
-								<p>我的收藏</p>
-							</a>
-							
-						</li>
-						<li>
-							<a href="#">
-								<p><img src="img/mine-icon2.png" alt="" class="mine-icon"/></p>
-								<p>我的积分</p>
-							</a>
-						</li>
-						<li class="sign-icon-click">
-							<a href="#">
-								<p><img src="img/mine-icon3.png" alt="" class="mine-icon"/></p>
-								<p>每日签到</p>
-							</a>
-						</li>
-					</ul>
 				</div>
-				<!--更改-->
-				<ul class="modular-box">
-					<li class="modular-li">
-						<a href="myOrder.html">
-							<img src="img/module1.jpg" class="modular-img"/>
-							<p class="modular-word">我的订单</p>
-						</a>
-					</li>
-					<li class="modular-li">
-						<a href="address.html">
-							<img src="img/module2.jpg" class="modular-img"/>
-							<p class="modular-word">地址管理</p>
-						</a>
-					</li>
-					<li class="modular-li">
-						<a href="coupon-page.html">
-							<img src="img/module3.jpg" class="modular-img"/>
-							<p class="modular-word">优惠券</p>
-						</a>
-					</li>
-					<li class="modular-li">
-						<a href="feedback.html">
-							<img src="img/module4.jpg" class="modular-img"/>
-							<p class="modular-word">意见反馈</p>
-						</a>
-					</li>
-					<li class="modular-li">
-						<a href="#">
-							<img src="img/module5.jpg" class="modular-img"/>
-							<p class="modular-word">帮助中心</p>
-						</a>
-					</li>
-					<li class="modular-li">
-						<a href="#">
-							<img src="img/module6.png" class="modular-img"/>
-							<p class="modular-word">联系客服</p>
-						</a>
-					</li>
-				</ul>
 			</div>
-			<!--content结束-->
-			<div class="mine-foot">退出登录</div>
+			<div class="weui-panel weui-panel_access">
+				<div class="weui-panel__bd">
+					<div class="weui-media-box weui-media-box_small-appmsg">
+						<div class="weui-cells">
+							<a class="weui-cell weui-cell_access" href="myOrder.html">
+								<div class="weui-cell__hd"><span class="icon-order icon"></span></div>
+								<div class="weui-cell__bd weui-cell_primary">
+									<span>我的订单</span><i class="new-message-icon"></i>
+								</div>
+								<span class="weui-cell__ft"></span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="weui-panel weui-panel_access">
+				<div class="weui-panel__bd">
+					<div class="weui-media-box weui-media-box_small-appmsg">
+						<div class="weui-cells">
+							<a class="weui-cell weui-cell_access" href="coupon-page.html">
+								<div class="weui-cell__hd"><span class="icon-coupon icon"></span></div>
+								<div class="weui-cell__bd weui-cell_primary">
+									<span>优惠券</span><i class="new-message-icon"></i>
+								</div>
+								<span class="weui-cell__ft"></span>
+							</a>
+							<a class="weui-cell weui-cell_access" href="address.html">
+								<div class="weui-cell__hd"><span class="icon-location icon"></span></div>
+								<div class="weui-cell__bd weui-cell_primary">
+									<span>地址管理</span>
+								</div>
+								<span class="weui-cell__ft"></span>
+							</a>
+							<a class="weui-cell weui-cell_access" href="javascript:;">
+								<div class="weui-cell__hd"><span class="icon-service icon"></span></div>
+								<div class="weui-cell__bd weui-cell_primary">
+									<span>联系客服</span>
+								</div>
+								<span class="weui-cell__ft"></span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="weui-panel weui-panel_access">
+				<div class="weui-panel__bd">
+					<div class="weui-media-box weui-media-box_small-appmsg">
+						<div class="weui-cells">
+							<a class="weui-cell weui-cell_access logo-out" href="javascript:;">
+								<div class="weui-cell__bd weui-cell_primary mine-foot ">
+									<span>退出登录</span>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
-		<!--wrapper结束-->
-		<div class="sign-alert">
-			<div class="sign-close-box">
-				<img src="img/signcolse.png" alt="" class="sign-close-btn"/>
-			</div>
-			<div class="sign-alert-con">
-				<p class="add-integral"><span class="add-integral-num">+10</span>积分</p>
-				<img src="img/signIcon.png" alt="" class="sign-alert-icon"/>
-				<input type="button" name="" id="" value="查看详情" class="sign-alert-codebtn">
-			</div>
+
+		<div class="weui-tabbar">
+			<a href="index.html" class="weui-tabbar__item">
+				<div class="weui-tabbar__icon">
+					<span class="icon-index">
+                	</span>
+				</div>
+				<p class="weui-tabbar__label">首页</p>
+			</a>
+			<a href="shopCart.html" class="weui-tabbar__item shop-cart">
+				<div class="weui-tabbar__icon">
+					<span class="icon-cart">
+                	</span>
+				</div>
+				<p class="weui-tabbar__label">购物车</p>
+			</a>
+			<a href="#tab3" class="weui-tabbar__item">
+				<div class="weui-tabbar__icon">
+					<span class="icon-classify">
+                	</span>
+				</div>
+				<p class="weui-tabbar__label">分类</p>
+			</a>
+			<a href="#tab4" class="weui-tabbar__item weui-bar__item--on">
+				<div class="weui-tabbar__icon">
+					<span class="icon-user">
+                	</span>
+				</div>
+				<p class="weui-tabbar__label">我的</p>
+			</a>
 		</div>
-		<div class="cover"></div>
-		
-		<script type="text/javascript">
-		$(function(){
-			$('.sign-close-btn').bind('click',function(){
-				$('.sign-alert').hide();
-				$('.cover').hide();
-			});
-			$('.sign-icon-click').bind('click',function(){
-				$('.sign-alert').show();
-				$('.cover').show();
-			});
-		})
-			
-		</script>
+	</div>
+
+	<script src="./js/jquery-2.1.4.js"></script>
+	<script src="./js/fastclick.js"></script>
+	<script>
+        $(function() {
+            FastClick.attach(document.body);
+        });
+	</script>
+	<script src="js/jquery-weui.js"></script>
+
+	<script>
+        $("#a").select({
+            title: "选择职业",
+            items: ["法官", "医生", "猎人", "学生", "记者", "其他"]
+        });
+	</script>
 	</body>
 </html>
