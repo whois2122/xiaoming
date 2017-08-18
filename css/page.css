@@ -1,0 +1,161 @@
+body,html{height: 100%}
+body{
+    background: #FBFBFB;
+}
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?xc0dkz');
+    src:  url('../fonts/icomoon.eot?xc0dkz#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?xc0dkz') format('truetype'),
+    url('../fonts/icomoon.woff?xc0dkz') format('woff'),
+    url('../fonts/icomoon.svg?xc0dkz#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-order:before {
+    content: "\e900";
+    color: #67a0fc;
+}
+.icon-vip:before {
+    content: "\e901";
+    color: #fd8b8c;
+}
+.icon-flash:before {
+    content: "\e902";
+    color: #adb8fd;
+}
+.icon-foot:before {
+    content: "\e903";
+    color: #fdb27c;
+}
+.icon-coupon:before {
+    content: "\e904";
+    color: #ff7272;
+}
+.icon-help:before {
+    content: "\e905";
+    color: #84bafa;
+}
+.icon-location:before {
+    content: "\e906";
+    color: #adb8fd;
+}
+.icon-service:before {
+    content: "\e907";
+    color: #fdb27c;
+}
+.icon-classify:before {
+    content: "\e909";
+    color: #999;
+}
+.icon-index:before {
+    content: "\e90b";
+    color: #999;
+}
+.icon-cart:before {
+    content: "\e90a";
+    color: #999;
+}
+.icon-user:before {
+    content: "\e908";
+}
+.weui-tabbar__icon{
+    font-size:24px;
+}
+
+.weui-tabbar{
+    background-color: #fff;
+}
+.weui-tab__bd{
+    overflow-y: scroll;
+    padding-bottom: 54px;
+}
+.weui-tabbar__item{
+    color: #999;
+}
+.weui-tabbar__item.weui-bar__item--on .weui-tabbar__icon span:before{
+    color:#F3415E;
+}
+.weui-tabbar__item.weui-bar__item--on .weui-tabbar__label{
+    color:#F3415E;
+}
+.head{
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+
+}
+.placeholder {
+    margin: 10px;
+    padding: 0 10px;
+    text-align: center;
+    color: #212121;
+    font-size: 12px;
+}
+.weui-flex__item{
+    text-align: center;
+}
+.weui-flex__item .icon{font-size: 26px}
+
+.weui-cell .weui-cell__hd .icon{
+    font-size: 18px;
+    margin-right: 10px;
+}
+.weui-cell .weui-cell__hd .icon-coupon{
+    font-size: 24px;
+}
+.weui-cell .weui-cell__hd .icon-location{
+    font-size: 20px;
+}
+.weui-cell .weui-cell__hd .icon-service{
+    font-size: 16px;
+}
+.weui-cell .weui-cell__bd{
+    font-size: 16px;
+    font-weight: normal;
+}
+.weui-cell:before{left: 0}
+.weui-panel:after, .weui-panel:before{
+    z-index: 1;
+}
+.logo-out{
+    height: 50px;
+    line-height: 50px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.new-message-icon{
+    display: inline-block;
+    position: relative;
+    top: -10px;
+    left:5px;
+    width: 6px;
+    height: 6px;
+    border-radius:50% ;
+    background-color: red;
+}
+
+.page-mine{
+    color:#212121;
+}
+.page-mine .weui-media-box__desc{
+    color:#212121;
+    font-size: 12px;
+}
+.page-mine .weui-media-box__title{font-size: 15px}

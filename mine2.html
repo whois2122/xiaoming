@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="aplus-terminal" content="1"/>
+		<meta name="apple-mobile-web-app-title" content="SHOPDZ"/>
+		<meta name="apple-mobile-web-app-capable" content="yes"/>
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+		<title>个人中心</title>
+		<link rel="stylesheet" href="css/reset.css" />
+		<!--<link rel="stylesheet" href="css/style.css" />-->
+		<link rel="stylesheet" href="./css/weui.min.css">
+		<link rel="stylesheet" href="./css/jquery-weui.css">
+		<link rel="stylesheet" href="css/page.css" />
+	</head>
+	<body class="page-mine" ontouchstart>
+	<div class="weui-tab">
+		<div class="weui-tab__bd">
+			<!--<div id="tab1" class="weui-tab__bd-item weui-tab__bd-item&#45;&#45;active">
+				<h1>页面一</h1>
+			</div>
+			<div id="tab2" class="weui-tab__bd-item">
+				<h1>页面二</h1>
+			</div>
+			<div id="tab3" class="weui-tab__bd-item">
+				<h1>页面三</h1>
+			</div>
+			<div id="tab4" class="weui-tab__bd-item">
+				<h1>页面四</h1>
+			</div>-->
+			<div class="weui-panel weui-panel_access">
+				<div class="weui-panel__bd">
+					<a href="javascript:void(0);" class="weui-media-box weui-media-box_appmsg weui-cell_access">
+						<div class="weui-media-box__hd">
+							<img class="head head-img" src="img/head-img.png" alt="">
+						</div>
+						<div class="weui-media-box__bd">
+							<p class="weui-media-box__title person-name">百里守约</p>
+							<p class="weui-media-box__desc">资料修改</p>
+						</div>
+						<span class="weui-cell__ft"></span>
+					</a>
+				</div>
+			</div>
+			<div class="weui-panel weui-panel_access">
+				<div class="weui-panel__bd">
+					<div class="weui-flex">
+						<div class="weui-flex__item">
+							<div class="placeholder">
+								<span class="icon-vip icon"></span><br/>
+								<span>收藏</span>
+							</div>
+						</div>
+						<div class="weui-flex__item">
+							<div class="placeholder">
+								<span class="icon-foot icon"></span><br/>
+								<span>足迹</span>
+							</div>
+						</div>
+						<div class="weui-flex__item">
+							<div class="placeholder">
+								<span class="icon-flash icon"></span><i class="new-message-icon"></i><br/>
+								<span>消息</span>
+							</div>
+						</div>
+						<div class="weui-flex__item">
+							<div class="placeholder">
+								<span class="icon-help icon"></span><br/>
+								<span>帮助</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="weui-panel weui-panel_access">
+				<div class="weui-panel__bd">
+					<div class="weui-media-box weui-media-box_small-appmsg">
+						<div class="weui-cells">
+							<a class="weui-cell weui-cell_access" href="myOrder.html">
+								<div class="weui-cell__hd"><span class="icon-order icon"></span></div>
+								<div class="weui-cell__bd weui-cell_primary">
+									<span>我的订单</span><i class="new-message-icon"></i>
+								</div>
+								<span class="weui-cell__ft"></span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="weui-panel weui-panel_access">
+				<div class="weui-panel__bd">
+					<div class="weui-media-box weui-media-box_small-appmsg">
+						<div class="weui-cells">
+							<a class="weui-cell weui-cell_access" href="coupon-page.html">
+								<div class="weui-cell__hd"><span class="icon-coupon icon"></span></div>
+								<div class="weui-cell__bd weui-cell_primary">
+									<span>优惠券</span><i class="new-message-icon"></i>
+								</div>
+								<span class="weui-cell__ft"></span>
+							</a>
+							<a class="weui-cell weui-cell_access" href="address.html">
+								<div class="weui-cell__hd"><span class="icon-location icon"></span></div>
+								<div class="weui-cell__bd weui-cell_primary">
+									<span>地址管理</span>
+								</div>
+								<span class="weui-cell__ft"></span>
+							</a>
+							<a class="weui-cell weui-cell_access" href="javascript:;">
+								<div class="weui-cell__hd"><span class="icon-service icon"></span></div>
+								<div class="weui-cell__bd weui-cell_primary">
+									<span>联系客服</span>
+								</div>
+								<span class="weui-cell__ft"></span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="weui-panel weui-panel_access">
+				<div class="weui-panel__bd">
+					<div class="weui-media-box weui-media-box_small-appmsg">
+						<div class="weui-cells">
+							<a class="weui-cell weui-cell_access logo-out" href="javascript:;">
+								<div class="weui-cell__bd weui-cell_primary mine-foot ">
+									<span>退出登录</span>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="weui-tabbar">
+			<a href="index.html" class="weui-tabbar__item">
+				<div class="weui-tabbar__icon">
+					<span class="icon-index">
+                	</span>
+				</div>
+				<p class="weui-tabbar__label">首页</p>
+			</a>
+			<a href="shopCart.html" class="weui-tabbar__item shop-cart">
+				<div class="weui-tabbar__icon">
+					<span class="icon-cart">
+                	</span>
+				</div>
+				<p class="weui-tabbar__label">购物车</p>
+			</a>
+			<a href="#tab3" class="weui-tabbar__item">
+				<div class="weui-tabbar__icon">
+					<span class="icon-classify">
+                	</span>
+				</div>
+				<p class="weui-tabbar__label">分类</p>
+			</a>
+			<a href="#tab4" class="weui-tabbar__item weui-bar__item--on">
+				<div class="weui-tabbar__icon">
+					<span class="icon-user">
+                	</span>
+				</div>
+				<p class="weui-tabbar__label">我的</p>
+			</a>
+		</div>
+	</div>
+
+	<script src="./js/jquery-2.1.4.js"></script>
+	<script src="./js/fastclick.js"></script>
+	<script>
+        $(function() {
+            FastClick.attach(document.body);
+        });
+	</script>
+	<script src="js/jquery-weui.js"></script>
+
+	<script>
+        $("#a").select({
+            title: "选择职业",
+            items: ["法官", "医生", "猎人", "学生", "记者", "其他"]
+        });
+	</script>
+	</body>
+</html>
